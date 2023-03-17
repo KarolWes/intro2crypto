@@ -1,0 +1,6 @@
+*.pem
+*.bmp
+*.iml
+*.xml
+
+/.idea
