@@ -3,10 +3,8 @@ import string
 
 # O(len(secret)+1)
 def guess_len():
-    l = 1
-    ans = 'a'*l
-    time = 0
-    _, exec_time = match(ans)
+    l = 0
+    time = exec_time = 0
     while exec_time >= time:
         time = exec_time
         l+=1
